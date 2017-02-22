@@ -201,7 +201,7 @@ angular.module('ngPinchZoom', [])
         '-webkit-transition' : transition,
         transition           : transition,
         '-webkit-transform'  : matrix + ' translate3d(0,0,0)',
-        transform            : matrix
+        transform            : matrix + ' translate3d(0,0,0)',
       });
     }
   }
